@@ -1,0 +1,12 @@
+N = 1000
+
+Constant:      O(1)         = 1                   = 1
+Linear:        O(N)         = 1000                = 4
+Logarithmic:   O(Log N)     = 9.86 ~ 10           = 2
+Sqrt:          O(sqrt(N))   = 31.62 ~ 32          = 3
+Quadratic:     O(N*N)       = 1000000             = 6
+Linearithmic:  O(NLog N)    = 9965.78 ~ 10000     = 5
+
+
+O(N) > O(Log N) > O(sqrt(N)) > O(N) > O(NLog N) > O(N*N) 
+
